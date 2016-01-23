@@ -24,7 +24,7 @@ typedef enum XMLEventLabel_t
 typedef enum ErrorValue_t
 {
 	NoError = 0,
-	MissElem = 1,    //miss <,\,.......
+	MissElem = 1,
 	NameStartCharError = 2,
 	NameCharError = 3,
 	AttributeError = 4,
